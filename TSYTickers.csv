@@ -1,0 +1,13 @@
+Tenor,CUSIP,I25 Ask YTM US Treasury Actives Curve 09/07/23 Description
+1M,GBM Govt,GBM Govt
+2M,GB2 Govt,GB2 Govt
+3M,GB3 Govt,GB3 Govt
+6M,GB6 Govt,GB6 Govt
+1Y,GB1 Govt,GB1 Govt
+2Y,GT2 Govt,GT2 Govt
+3Y,GT3 Govt,GT3 Govt
+5Y,GT5 Govt,GT5 Govt
+7Y,GT7 Govt,GT7 Govt
+10Y,GT10 Govt,GT10 Govt
+20Y,GT20 Govt,GT20 Govt
+30Y,GT30 Govt,GT30 Govt
