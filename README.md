@@ -1,4 +1,4 @@
-# SOFR Treasury PCA
+# SOFR-Treasury PCA
 Analysis of SOFR and Treasury Yield Curve through PCA
 
 # Overview
@@ -36,3 +36,6 @@ The Distribution of spread
 With regards to spread and the correlation we can actually see the decoupling of curve changes (with respect to shift, slope, and convexity) from inflation. An ordinary economic thought-process would attribute this decoupling with difference in outlook to economic drivers. Economic-purests would suggest that the spreads are autoregressive given that inflation and economic drivers should move hand-in-hand, although the narrative has changed with the advent of unorthodox monetary policy (quantitative easing & tightening). Financial-practioners would most likely uphold the unorthodox monetary claim, but would also attest other factors are at play driving treasury yields. A lesser known driver would be economic/financial reflexivity proxied via liquidity which follows the addage "Markets will stay irrational longer than you can stay solvent".
 
 As per the development of this model into a tradable signal there are two main schools of thought, although there's a glaring confounding error that will be brought up at the end. On one hand is the autoregressive crowd which would put positions on the spread tightening and thus hoping that the Treasury yields tighen up to the SOFR rate. Looking at the current curve the divergence doesn't come until later tenors possibly suggesting that profits may not materialize for years. There are a couple of interesting plays for reversion of the spread through 2nd and 3rd principal components which lead to duration neutral portfolios as well a use options as an exposure to convexity. In the other school of thought would be finding dislocations within markets. The decoupling of yields from inflation shown as the spread can be interpretated as mispricing of assets from a risk-to-reward standpoint. This could be easily exploited through some sort of risk budgeting program. 
+
+# Footnotes
+1. J. Benson Durham Nominal U.S. Treasuries Embed Liquidity Premiums, Too: An Affine Model of the Term Structure [link]([https://pages.github.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4086033#:~:text=Second%2C%20counter%2Dcyclicality%20of%20required,term%20premiums%2C%20not%20liquidity%20premiums.)https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4086033#:~:text=Second%2C%20counter%2Dcyclicality%20of%20required,term%20premiums%2C%20not%20liquidity%20premiums./)
